@@ -4,7 +4,7 @@
 <center>
 <a href="https://t.me/stinstiks"><button   id="clickButton" 
   :disabled="buttonClicked" 
-  @click="gotoChannel()" class="task1">{{ buttonClicked ? 'Completed✅': '<h3>Go to Community</h3><h4>+25,000 Cucumber</h4>'}}
+  @click="gotoChannel()" class="task1">{{ buttonClicked ? 'Completed✅' }}<h3>Go to Community</h3><h4>+25,000 Cucumber</h4>
 <img class="cucu" src="https://i.postimg.cc/L8h57Z2R/IMG-0722.png" width="50px" height="50px">
 </button></a>
 </center>
